@@ -1,4 +1,4 @@
-ch=input('character:')
+ch=input()
 if(ch>='a' and ch<='z') or (ch>='a' and ch<='z'):
     print(ch,'alphabet')
 else:
