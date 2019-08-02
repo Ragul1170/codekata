@@ -1,5 +1,5 @@
-ch=input("enter a character:")
-if(ch=='a' or ch=='e' or ch=='i' or ch=='o' or ch=='u'):
-    print(ch,'vowel')
+ch=input('character:')
+if(ch>='a' and ch<='z') or (ch>='a' and ch<='z'):
+    print(ch,'alphabet')
 else:
-    print(ch,'consonant')
+    print(ch,'not alphabet')
